@@ -1,6 +1,6 @@
 Project code developed by Hayden Galante and Katherine Philip. The project code can be found in the directory Ours/ 
 
-Hayden Galante wrote Perceptron and Combination files/branch predictors.
+Hayden Galante wrote Perceptron and Combination files/branch predictors. Additionally, I wrote the python to generate the reports comparing the effectiveness of the various branch predictors.
 
 
 // vim: textwidth=80
