@@ -1,0 +1,19 @@
+import os
+
+
+def get_file_names(folder_path):
+    # Check if the folder path exists
+    if not os.path.exists(folder_path):
+        print(f"The folder '{folder_path}' does not exist.")
+        return []
+
+    # Get all files in the folder
+    files = os.listdir(folder_path)
+
+    # Extract file names without extension
+    file_names = [os.path.splitext(file)[0] for file in files]
+
+    return file_names
+    
+if __name__ == '__main__':
+  print(get_file_names('traces/'))
